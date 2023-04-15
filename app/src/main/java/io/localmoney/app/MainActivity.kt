@@ -14,6 +14,7 @@ import androidx.compose.ui.unit.dp
 import io.localmoney.app.ui.components.BuySellButtons
 import io.localmoney.app.ui.components.Container
 import io.localmoney.app.ui.components.Header
+import io.localmoney.app.ui.components.CryptoFiatSelectors
 import io.localmoney.app.ui.theme.LocalMoneyTheme
 
 class MainActivity : ComponentActivity() {
@@ -37,8 +38,8 @@ fun Content() {
         ) {
             Header()
             BuySellButtons()
+            CryptoFiatSelectors()
         }
-
     }
 }
 
